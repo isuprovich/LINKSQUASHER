@@ -26,7 +26,7 @@ async function start() {
             useUnifiedTopology: true,
             useCreateIndex: true
         })
-        app.listen(PORT, () => console.log(`Приложение запущено на порте ${PORT}...`))
+        app.listen(process.env.PORT || PORT, () => console.log(`Приложение запущено на порте ${PORT}...`))
     } catch (e) {
         console.log('Server Error', e.message)
         process.exit(1)
