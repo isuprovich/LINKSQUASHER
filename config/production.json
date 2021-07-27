@@ -2,5 +2,5 @@
     "port": 5000,
     "jwtSecret": "isuprovich is best",
     "mongoUri": "mongodb+srv://isuprovich:692120u@mern-cluster.hdngf.mongodb.net/app?retryWrites=true&w=majority",
-    "baseUrl": "http://localhost:5000"
+    "baseUrl": "https://linksquasher.herokuapp.com"
 }
